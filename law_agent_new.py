@@ -10,8 +10,6 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from dataclasses import dataclass, field
 from langgraph.graph import START, StateGraph, END, MessagesState
 from langgraph.checkpoint.memory import MemorySaver
-from gen_ai_hub.proxy.langchain.openai import ChatOpenAI
-from gen_ai_hub.proxy.core.proxy_clients import get_proxy_client
 from typing import Literal, List, Dict, Optional
 from typing_extensions import TypedDict
 from pydantic import BaseModel, Field
